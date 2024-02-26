@@ -18,12 +18,12 @@ export default function Page() {
 <p
       className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
     >
-            <strong>Hi I am Amar</strong> <br/>This is an example for a sample{' '}
-            <a href="/" className="text-blue-500">
+            <strong>Hi I am Amar Srivastava</strong> <br/><p className='text-2xl mt-3'>This is an example for a sample project{' '}
+            <Link  href= "/dashboard" className="text-blue-500 underline-offset-4 text-decoration-line: underline">
               Dashboard Application
-            </a>
-            ,  using NextJS 14 , Tailwind and Typescript .
-          </p>
+            </Link>
+            ,  using NextJS 14 , Tailwind and Typescript . It uses advanced features of Next JS like Partial Pre rendering , Static and Dynamic Pre rendering , Suspense and Fallback and Route Groups etc . Also It is made responsive using tailwind classes .
+          </p></p>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"

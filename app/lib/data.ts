@@ -34,7 +34,7 @@ export async function fetchRevenue() {
 }
 
 export async function fetchLatestInvoices() {
-  await new Promise((resolve) => setTimeout(resolve, 4000));
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   noStore();
   try {
     const data = await sql<LatestInvoiceRaw>`
