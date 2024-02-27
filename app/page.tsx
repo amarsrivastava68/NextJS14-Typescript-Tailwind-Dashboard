@@ -16,14 +16,14 @@ export default function Page() {
   className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
 />
 <p
-      className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
+      className={`${lusitana.className} text-xl text-gray-800 md:text-2xl md:leading-normal`}
     >
-            <strong>Hi I am Amar Srivastava</strong> <br/><p className='text-2xl mt-3'>This is an example for a sample project{' '}
-            <Link  href= "/dashboard" className="text-blue-500 underline-offset-4 text-decoration-line: underline">
-              Dashboard Application
-            </Link>
-            ,  using NextJS 14 , Tailwind and Typescript . It uses advanced features of Next JS like Partial Pre rendering , Static and Dynamic Pre rendering , Suspense and Fallback and Route Groups etc . Also It is made responsive using tailwind classes .
-          </p></p>
+            <strong>Hi I am Amar Srivastava</strong> <br/>This is an example for a sample project{' '}
+            <Link href="/dashboard" className="text-blue-500 underline-offset-4 hover:underline animate-shimmer">
+  Dashboard Application
+</Link>
+            ,  using <strong className='text-xl'> NextJS , Tailwind and Typescript</strong> . It uses advanced features of Next JS like Partial Pre rendering , Static and Dynamic Pre rendering , Suspense and Fallback and Route Groups etc . Also It is made responsive using tailwind classes .
+          </p>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
